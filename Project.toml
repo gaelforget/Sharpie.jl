@@ -1,0 +1,8 @@
+name = "Sharpie"
+uuid = "f65a958e-d0c9-11e9-1ea9-0fdba34a2b8d"
+authors = ["gaelforget <gforget@mit.edu>"]
+version = "0.1.0"
+
+[deps]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
