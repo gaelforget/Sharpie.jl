@@ -1,6 +1,6 @@
 
 [![Travis Build Status](https://travis-ci.org/gaelforget/Sharpie.jl.svg?branch=master)](https://travis-ci.org/gaelforget/Sharpie.jl)
-[![codecov](https://codecov.io/gh/gaelforget/Sharpie.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/gaelforget/Sharpie.jl)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gaelforget/Sharpie.jl/master?filepath=notebooks%2FSharpieDemo.ipynb)
 
 _Dumb fake_ a little bit like _deep fake_ but somewhat less profound and more computationally efficient. 
 
@@ -15,14 +15,16 @@ Pkg.test("sharpie")
 ```
 ## Try it
 
-Open a `Jupyter` notebook and execute:
+Hit the binder badge above to start a could instance of `Sharpie.jl` or open `notebooks/SharpieDemo.ipynb` using `Jupyter` on a local computer.
+
+This will execute
 
 ```
 using Sharpie
 Sharpie.BeforeAndAfter()
 ```
 
-This will display the graphs `before` and `after` applying `Sharpie`:
+and display two images -- `before` and `after` applying `Sharpie`:
 
 ![alt-text-1](figs/Sharpie_before.jpg "Before") ![alt-text-2](figs/Sharpie_after.jpg "After")
 
