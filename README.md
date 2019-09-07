@@ -6,9 +6,9 @@ _Dumb fake_ a little bit like _deep fake_ but somewhat less profound and more co
 
 ## Try it
 
-Hit `launch binder` above to use the cloud or open `notebooks/SharpieDemo.ipynb` using `jupyter` on a local computer.
+Hit `launch binder` to use cloud computing or open `notebooks/SharpieDemo.ipynb` using `jupyter` on your local computer.
 
-This will execute
+This notebook will execute
 
 ```
 using Sharpie
