@@ -6,7 +6,7 @@ _Dumb fake_ a little bit like _deep fake_ but somewhat less profound and more co
 
 ## Try it
 
-Hit the binder badge above to use a cloud service or open `notebooks/SharpieDemo.ipynb` using `jupyter` on a local computer.
+Hit `launch binder` above to use the cloud or open `notebooks/SharpieDemo.ipynb` using `jupyter` on a local computer.
 
 This will execute
 
