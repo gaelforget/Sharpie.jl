@@ -21,10 +21,10 @@ ps: very advanced tech indeed ... :wink:
 
 ## Install it
 
-Start `julia` or a `Jupyter` notebook and execute:
+Start `IJulia` or a `Jupyter` notebook and execute:
 
 ```
 using Pkg
-Pkg.add("Sharpie")
-Pkg.test("sharpie")
+Pkg.add(PackageSpec(url="https://github.com/gaelforget/Sharpie.jl"))
+Pkg.test("Sharpie")
 ```
